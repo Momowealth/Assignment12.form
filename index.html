@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:wght@100;200;400;600&family=Roboto:wght@300;400;500&family=Sofia&display=swap" rel="stylesheet">
+        <title>form</title>
+
+    </head>
+    <body>
+        
+        <main>
+            <div class="content">
+                <h2>CapacityBay Survey Form</h2>
+                <p><i>Thank you for the time to help us improve the platform</i></p>
+            </div>
+                
+        
+            <form action="form"  class="form">
+            
+                <label for="name" class="labels">Name</label><br>
+                <input type="text" id="Name" placeholder="Enter your name" class="m-2">
+                <br><br>
+                <label for="Email" class="labels">Email</label><br>
+                <input type="text" id="name" placeholder="Enter your Email" class="m-2">
+                <br><br>
+                <label for="age" class="labels">Age (optional)</label><br>
+                <input type="text" id="age" placeholder="Age" class="m-2">
+                <br><br>
+                <label for="role" class="labels">Which option best describes your current role?</label><br>
+
+                <select  name="role" id="role" class="m-2">
+                    <option>Select current role</option>
+                    <option value="question1">Student</option>
+                    <option value="question2">Full Time Job</option>
+                    <option value="question3">Full Time Learner</option>
+                    <option value="question4">Prefer not to say</option>
+                    <option value="question5">Other</option>
+                </select>
+                <br><br>
+                <label for="q1" class="labels">Would you recommend CapacityBay to a friend?</label><br>
+                    
+                <input type="radio" value="definitely" name="recommend" class="q1">
+                <label for="q2" class="q2">Definitely</label><br>
+                <input type="radio" value="maybe" name="recommend" class="q1">
+                <label for="q2" class="q2">Maybe</label><br>
+                <input type="radio" value="not sure" name="recommend" class="q1">
+                <label for="q2" class="q2">Not sure</label>
+                <br><br>
+                <label for="question" class="labels">What is your favorite feature of CapacityBay?</label><br>
+                <select name="question" id="question" class="m-2">
+                    <option value="q1">Select an option</option>
+                    <option value="q2">Challenges</option>
+                    <option value="q3">Projects</option>
+                    <option value="q4">Community</option>
+                    <option value="q5">Open Source</option>
+                </select><br><br>
+                <label for="survey" class="labels">What would you like to see improved in CapacityBay?</label><br>
+                <input name="projects" type="checkbox" class="q1">
+                <label for="" class="q2">Front-end Projects</label><br>
+                <input name="projects" type="checkbox" class="q1">
+                <label class="q2">Back-end Projects</label><br>
+                <input name="projects" type="checkbox" class="q1">
+                <label class="q2">Data Visulization</label><br>
+                <input name="projects" type="checkbox" class="q1">  
+                <label class="q2">Challenges</label><br>
+                <input type="checkbox" class="q1">
+                <label class="q2">Open Source Community</label><br>
+                <input type="checkbox" class="q1">
+                <label class="q2">Gitter help rooms</label><br>
+                <input type="checkbox" class="q1">
+                <label class="q2" >Videos</label><br>
+                <input type="checkbox" class="q1">
+                <label for="" class="q2" >City Meetups</label><br>
+                <input type="checkbox" class="q1">
+                <label for="" class="q2">Wiki</label><br>
+                <input type="checkbox" class="q1">
+                <label for="" class="q2">Forum</label><br>
+                <input type="checkbox" class="q1">
+                <label for="" class="q2">Additional Courses</label><br><br>
+                <label for="">Any comment or suggestions?</label><br>
+                <input type="text" placeholder="Enter your comment here..." class="comment"><br>
+                <button>Submit</button>
+
+            </form>
+        </main>
+
+    </body>
+</html>

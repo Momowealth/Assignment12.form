@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url(./lap\ img.jpg) ;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: 100%;
+    background-color: rgb(48, 48, 189);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+form{
+    background-color:rgb(7, 7, 27);
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-inline: auto;
+    padding: 20px 20px 50px;
+    width: min(40%, 1200px);
+    
+}
+.content{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.content h2{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+.content p{
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+.labels{
+    text-align: left;
+    margin-top: 50px;
+}
+.m-2{
+    width: 100%;
+    padding: 7px;
+    margin-top: 7px;
+    border-radius: 5px;
+}
+.q1{
+    padding: 7px;
+    margin-top: 10px;
+    
+}
+.q2{
+    padding: 5px;
+}
+.comment{
+    width: 100%;
+    padding: 7px 7px 80px;
+}
+button{
+    width: 100%;
+    background: #0e8a4c;
+    padding: 10px;
+    margin-top: 20px;
+}
+button:hover{
+    background: cyan;
+}
+@media (max-width: 1050px){
+    form {
+       width: 95%;
+    }
+}
